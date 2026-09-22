@@ -1,0 +1,19 @@
+# Ignorar directorios de build
+target/
+build/
+
+# Ignorar configuraciones locales de IDE
+.idea/
+.vscode/
+
+# Ignorar control de versiones
+.git
+.gitignore
+.gitattributes
+
+# Ignorar archivos sensibles
+.env
+*.log
+
+# Otros archivos innecesarios
+HELP.md
