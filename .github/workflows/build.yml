@@ -17,7 +17,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Iniciar sesion en ACR
-        run: az acr login --name datalyzeiotac
+        run: az acr login --name datalyzeiotacr
 
       - name: Construir y subir imagen Docker
         uses: docker/build-push-action@v5
